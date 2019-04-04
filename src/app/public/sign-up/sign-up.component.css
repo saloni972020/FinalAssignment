@@ -1,0 +1,35 @@
+label{
+    color: gray;
+}
+form{
+margin-left: 10%;
+
+}
+h1{
+    color:#4CAF48;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left:40%;
+}
+.button {
+    background-color: #4CAF48;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 10%;
+    cursor: pointer;
+    width:300px
+  }
+  table{
+      border: 5px black;
+      overflow:auto;
+      
+  }
+  #pa{
+      margin-left: 35%
+  }
+  

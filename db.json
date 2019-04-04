@@ -1,0 +1,304 @@
+{
+  "user": [
+    {
+      "id": 1
+    },
+    {
+      "firstName": "dfghj",
+      "lastName": "ghj",
+      "email": "gfhj@g.com",
+      "password": "sdfghjkl",
+      "phone": "7894561237",
+      "cpassword": "fghjkhj",
+      "Address": "fgh",
+      "id": 2
+    },
+    {
+      "firstName": "rty",
+      "lastName": "sdfghjkl",
+      "email": "asd@gmail.com",
+      "password": "1234567890",
+      "phone": "1234567890",
+      "cpassword": "1234567890",
+      "Address": "sdfghjk",
+      "id": 3
+    },
+    {
+      "firstName": "rty",
+      "lastName": "sdfghjkl",
+      "email": "asd@gmail.com",
+      "password": "1234567890",
+      "phone": "1234567890",
+      "cpassword": "1234567890",
+      "Address": "sdfghjk",
+      "id": 4
+    },
+    {
+      "firstName": "rty",
+      "lastName": "sdfghjkl",
+      "email": "asd@gmail.com",
+      "password": "1234567890",
+      "phone": "1234567890",
+      "cpassword": "1234567890",
+      "Address": "sdfghjk",
+      "id": 5
+    },
+    {
+      "firstName": "fghjk",
+      "lastName": "nm,",
+      "email": "gag@j.com",
+      "password": "wertyuio",
+      "phone": "2345678900",
+      "cpassword": "123456789",
+      "Address": "sdfgh",
+      "id": 6
+    },
+    {
+      "firstName": "fghjk",
+      "lastName": "nm,",
+      "email": "gag@j.com",
+      "password": "wertyuio",
+      "phone": "2345678900",
+      "cpassword": "123456789",
+      "Address": "sdfgh",
+      "id": 7
+    },
+    {
+      "firstName": "fghjk",
+      "lastName": "nm,",
+      "email": "gag@j.com",
+      "password": "wertyuio",
+      "phone": "2345678900",
+      "cpassword": "123456789",
+      "Address": "sdfgh",
+      "id": 8
+    },
+    {
+      "firstName": "",
+      "lastName": "",
+      "email": "",
+      "password": "",
+      "phone": "",
+      "cpassword": "",
+      "Address": "",
+      "id": 9
+    },
+    {
+      "firstName": "",
+      "lastName": "",
+      "email": "",
+      "password": "",
+      "phone": "",
+      "cpassword": "",
+      "Address": "",
+      "id": 10
+    },
+    {
+      "firstName": "sdf",
+      "lastName": "sdfghjk",
+      "email": "1@wshg.com",
+      "password": "asdfghjk",
+      "phone": "234567890-987",
+      "cpassword": "sdfghjkl;",
+      "Address": "aqsdfghjk",
+      "id": 11
+    },
+    {
+      "firstName": "sdf",
+      "lastName": "sdfghjk",
+      "email": "1@wshg.com",
+      "password": "asdfghjk",
+      "phone": "23456789067",
+      "cpassword": "sdfghjkl;",
+      "Address": "aqsdfghjk",
+      "id": 12
+    },
+    {
+      "firstName": "",
+      "lastName": "",
+      "email": "",
+      "password": "",
+      "phone": "",
+      "cpassword": "",
+      "Address": "",
+      "id": 13
+    },
+    {
+      "firstName": "qwerty",
+      "lastName": "",
+      "email": "",
+      "password": "",
+      "phone": "",
+      "cpassword": "",
+      "Address": "",
+      "id": 14
+    },
+    {
+      "firstName": "qwerty",
+      "lastName": "qwerty",
+      "email": "s@gmail.com",
+      "password": "123456789",
+      "phone": "123456789009",
+      "cpassword": "123456789",
+      "Address": "sdfghj",
+      "id": 15
+    },
+    {
+      "firstName": "qwerty",
+      "lastName": "qwerty",
+      "email": "s@gmail.com",
+      "password": "123456789",
+      "phone": "1234567890",
+      "cpassword": "123456789",
+      "Address": "sdfghj",
+      "id": 16
+    },
+    {
+      "firstName": "saloni",
+      "lastName": "srivastav",
+      "username": "sgr@gmail.com",
+      "phoneNo": "9456324523",
+      "address": "sd",
+      "brief": "",
+      "password": "1234567890",
+      "confirmPswd": "1234567890-",
+      "id": 17
+    },
+    {
+      "firstName": "sdfghj",
+      "lastName": "dfghjkl",
+      "username": "q@gmail.com",
+      "phoneNo": "9643906107",
+      "address": "asdfgh",
+      "brief": "",
+      "password": "123456789",
+      "confirmPswd": "1234567890",
+      "id": 18
+    },
+    {
+      "firstName": "saloni srivastav",
+      "username": "saloni@gmai.com",
+      "phoneNo": "9643906104",
+      "address": "se",
+      "brief": "hjkl;",
+      "password": "123456",
+      "id": 19,
+      "lastName": null,
+      "fullName": "saloni srivastava"
+    },
+    {
+      "firstName": "pra123",
+      "lastName": "tri",
+      "username": "pt@gmail.com",
+      "phoneNo": "4567890898",
+      "address": "chd",
+      "brief": "gffghjj",
+      "password": "123456",
+      "confirmPswd": "123456",
+      "id": 20
+    },
+    {
+      "firstName": "pra",
+      "lastName": "sasti",
+      "username": "p@r",
+      "phoneNo": "9643906107",
+      "address": "ghjk",
+      "brief": "",
+      "password": "123456",
+      "confirmPswd": "123456",
+      "id": 21
+    },
+    {
+      "firstName": "prasasti",
+      "lastName": "tripathi",
+      "username": "pra@gmail.com",
+      "phoneNo": "9643906107",
+      "address": "sdfghj",
+      "brief": "",
+      "password": "123456",
+      "confirmPswd": "123456",
+      "id": 22
+    },
+    {
+      "firstName": "shivam",
+      "lastName": "singh",
+      "username": "s@s",
+      "phoneNo": "9875432173",
+      "address": "okay",
+      "brief": "",
+      "password": "123456",
+      "confirmPswd": "123456",
+      "id": 23
+    },
+    {
+      "firstName": "prasati",
+      "lastName": "t",
+      "username": "s@p",
+      "phoneNo": "9643906107",
+      "address": "678",
+      "brief": "",
+      "password": "123456",
+      "confirmPswd": "123456",
+      "id": 24
+    },
+    {
+      "firstName": "pra1s2a",
+      "lastName": "tri",
+      "username": "p@p",
+      "phoneNo": "9643906107",
+      "address": "qwertyui",
+      "brief": "",
+      "password": "123456",
+      "confirmPswd": "123456",
+      "id": 25
+    }
+  ],
+  "pending": [
+    {
+      "Date": "27 NOVEMBER 2019",
+      "add": "Sector 4, MDC Sector 4, Panchkula, Haryana 134114",
+      "name": "Saloni Srivastava"
+    },
+    {
+      "Date": "4 MAY 2019",
+      "add": "Sector 28, RDC SECTOR 28, Chandigarh, Chandigarh 160019",
+      "name": "Prasasti Tripathi"
+    },
+    {
+      "Date": "27 JUNE 2019",
+      "add": "Sector 31, MDC Sector 45, gurgaon, Haryana 134114",
+      "name": "Konica Raman"
+    }
+  ],
+  "past": [
+    {
+      "Date": "27 NOVEMBER 2018",
+      "add": "Sector 4, MDC Sector 4, Panchkula, Haryana 134114",
+      "name": "Shivam Singh"
+    },
+    {
+      "Date": "2 OCTOBER 2018",
+      "add": "Sector 4, MDC Sector 4, Gurgaon, Haryana 134114",
+      "name": "Sarthak Kapoor"
+    },
+    {
+      "Date": "14 JANUARY 2018",
+      "add": "Sector 19, MDC Sector 4, Hissar, Haryana 134114",
+      "name": "Utkarsh Tripathi"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is Lorem Ipsum ?",
+      "answer": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+    },
+    {
+      "question": "Why do we use it ?",
+      "answer": " a reader will It is a long established fact that be distracted by the readable content of a page when looking at its layout."
+    },
+    {
+      "question": "Where we can use it ?",
+      "answer": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable."
+    }
+  ]
+}

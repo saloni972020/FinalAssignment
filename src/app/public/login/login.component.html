@@ -1,0 +1,40 @@
+<div class="container"> 
+  <h1>LOGIN</h1> 
+  <hr style="width:50%;margin-left: 20%"> 
+  <form  style="box-shadow: 0 0 15px gray; width:50%; padding: 20px 20px; height:50% ;margin-left: 20%"  [formGroup]="angForm" (ngSubmit)="login()" novalidate> 
+  
+  <div class="form-group"> 
+  <label class="center-block">EMAIL
+  <input typr="text" class="form-control" formControlName="username" autocomplete="off"> 
+  </label> 
+  </div> 
+  <div *ngIf="angForm.controls['username'].invalid && (angForm.controls['username'].dirty || angForm.controls['username'].touched)" class="alert alert-danger"> 
+  <div *ngIf="angForm.controls['username'].errors.required"> 
+  Username is required. 
+  </div> 
+  </div> 
+  
+  <div class="form-group"> 
+  <label class="center-block">PASSWORD 
+  <input class="form-control" formControlName="password" type="password" autocomplete="off"> 
+  </label> 
+  </div> 
+  <div *ngIf="angForm.controls['password'].invalid && (angForm.controls['password'].dirty || angForm.controls['password'].touched)" class="alert alert-danger"> 
+  <div *ngIf="angForm.controls['password'].errors.required"> 
+  Passwoord is required. 
+  </div> 
+  <div *ngIf="angForm.controls['password'].errors.minlength">Password must be at least 6 characters</div> 
+  </div> 
+  
+  <div class="form-group"> 
+  <button type="submit" 
+  [disabled]="angForm.pristine || angForm.invalid" id="button"> 
+  Login 
+  </button> 
+  </div> 
+  </form> 
+  <br><br> 
+  <div id="linkingDiv"> 
+  <p id ="pa">New User? &nbsp; 
+  <a routerLink = '/register'>Go to Register Page</a> </p>  
+</div>

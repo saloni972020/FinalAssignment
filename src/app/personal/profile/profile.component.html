@@ -1,0 +1,104 @@
+<div class="container"> 
+  
+  <h1>PROFILE</h1> 
+  <hr>
+  <div style="margin-left:5%">
+  <form style="box-shadow: 0 0 15px gray; width:90%; height:120% ;" [formGroup]="Form" (ngSubmit)="update()" novalidate id="f"> 
+    <img src="../../../assets/image/images.jpg"   alt="avatar" class="imge">
+  <div style="margin-left:13% ;margin-bottom: 5%">
+    <div class="form-group row"> 
+  
+  <div class="col-xs-5"> 
+
+      
+  <label for="firstName"> FULL NAME</label> 
+  <input 
+  formControlName="firstName" 
+  id="firstName" 
+  type="text" 
+  class="form-control" 
+  autocomplete="off"> 
+  <div *ngIf="Form.controls['firstName'].invalid && (Form.controls['firstName'].dirty || Form.controls['firstName'].touched)" class="alert alert-danger"> 
+  <div *ngIf="Form.controls['firstName'].errors.required"> 
+  First name is required. 
+  </div> 
+  </div> 
+  </div> 
+  
+  <div class="col-xs-5"> 
+  <label for="username">EMAIL address</label> 
+  <input 
+  formControlName="username" 
+  id="username" 
+  type="text" 
+  class="form-control" 
+  autocomplete="off"> 
+  <div *ngIf="Form.controls['username'].invalid && (Form.controls['username'].dirty || Form.controls['username'].touched)" class="alert alert-danger"> 
+  <div *ngIf="Form.controls['username'].errors.required"> 
+  Email is required. 
+  </div> 
+  <div *ngIf="Form.controls['username'].errors.email"> 
+  Email is not valid. 
+  </div> 
+  </div> 
+  </div> 
+  
+  </div> 
+  
+  <div class="form-group row"> 
+  
+  <div class="col-xs-5"> 
+  <label for="phoneNo">PHONE NUMBER</label> 
+  <input 
+  formControlName="phoneNo" 
+  type="text" 
+  class="form-control" 
+  autocomplete="off"> 
+  <div *ngIf="Form.controls['phoneNo'].invalid && (Form.controls['phoneNo'].dirty || Form.controls['phoneNo'].touched)" class="alert alert-danger"> 
+  <div *ngIf="Form.controls['phoneNo'].errors.required"> 
+  Phoneno. is required. 
+  </div> 
+  </div> 
+  </div> 
+  
+  <div class="col-xs-5"> 
+  <label for="address"> address</label> 
+  <input 
+  formControlName="address" 
+  type="text" 
+  class="form-control" 
+  autocomplete="off"> 
+  <div *ngIf="Form.controls['address'].invalid && (Form.controls['address'].dirty || Form.controls['address'].touched)" class="alert alert-danger"> 
+  <div *ngIf="Form.controls['address'].errors.required"> 
+  address is required. 
+  </div> 
+  </div> 
+  </div> 
+  
+  </div> 
+  
+  <div class="form-group row"> 
+  
+  <div class="col-xs-5"> 
+  <label for="brief">BRIEF MEDICAL HISTORY OF THE PATIENT</label> 
+  <input 
+  formControlName="brief" 
+  type="text" 
+  class="form-control" 
+  autocomplete="off"> 
+  </div> 
+  
+  <div class="col-xs-5"> 
+  <div class="form-group"> 
+  <button type="submit" 
+  [disabled]="Form.pristine || Form.invalid" class="button" > 
+  Update 
+  </button> 
+  </div> 
+  
+  </div> 
+  </div> 
+</div> 
+</form> 
+  </div>
+</div>

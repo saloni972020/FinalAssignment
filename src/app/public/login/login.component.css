@@ -1,0 +1,31 @@
+h1{
+    color:#4CAF48;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left:40%;
+    margin-top:10%;
+    
+}
+#f{
+    border: 10 px solid gray;
+    
+}
+#button {
+    background-color: #4CAF48;
+    border: none;
+    color: white;
+    padding: 15px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 20%;
+    cursor: pointer;
+    width: 280px  
+}
+  label{
+    color: gray;
+}
+#pa{
+    margin-left:35%;
+}
